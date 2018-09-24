@@ -1,0 +1,26 @@
+{
+  "name": "@timetree/file-service",
+  "version": "1.0.0",
+  "description": "Internal module used for handling file uploads/downloads",
+  "main": "dist/index",
+  "scripts": {
+    "prepublishOnly": "npm run compile",
+    "compile": "npm run clean && tsc -p .",
+    "start": "tsc -w -p .",
+    "clean": "rimraf dist"
+  },
+  "author": "Timetree",
+  "license": "ISC",
+  "dependencies": {
+    "@timetree/base-service": "^1.0.27",
+    "@types/mongoose": "^5.2.9",
+    "azure-storage": "^2.10.1",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "into-stream": "^3.1.0",
+    "mongoose": "^5.2.10",
+    "multer": "^1.3.1",
+    "rimraf": "^2.6.2",
+    "typescript": "^3.0.3"
+  }
+}
