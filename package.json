@@ -11,6 +11,8 @@
   },
   "author": "Timetree",
   "license": "ISC",
+  "deprecated": false,
+  "typings": "dist/index",
   "dependencies": {
     "@timetree/base-service": "^1.0.27",
     "@types/express": "^4.16.0",
