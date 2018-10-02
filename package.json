@@ -1,6 +1,6 @@
 {
   "name": "@timetree/file-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Internal module used for handling file uploads/downloads",
   "main": "dist/index",
   "scripts": {
